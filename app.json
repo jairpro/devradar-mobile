@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "Dev Radar",
+    "slug": "DevRadar",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -15,7 +15,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#7159c1"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -27,7 +27,16 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.sistemanuvem.devradar"
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCXdkJrhnL_XfJ5wuxoLZrI_6fhM_DZ_Zo"
+        }
+      },
+      "package": "com.sistemanuvem.devradar",
+      "adaptiveIcon": {
+        "backgroundColor": "#7159c1",
+        "foregroundImage": "./assets/icon.png"
+      }
     }
   }
 }
